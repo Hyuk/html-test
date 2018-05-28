@@ -10,11 +10,17 @@
     <!-- Bootstrap CSS CDN End -->
 </head>
 <body>
-    <script>
-        $("#header_template").load("includes/header.html");    
-    </script>
+    
     <div id="header_template"></div>
     <h1>Welcome to Hyuk's Github Page</h1>
+
+    <!-- Custom JQuery Start -->
+    <script>
+        $(function(){
+            $("#header_template").load("includes/header.html");
+        });
+        </script>
+    <!-- Custome JQuery End -->
     <!-- Bootstrap JS CDN Start -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
