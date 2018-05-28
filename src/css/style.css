@@ -1,0 +1,14 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: Malgun Gothic, Gulim, sans-serif
+}
+
+#content_wrapper {
+    width: 1400px;
+    margin: 0 auto;
+    border: 1px solid black;
+}
